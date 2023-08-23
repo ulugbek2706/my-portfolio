@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub,FaInstagram,FaTelegram} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill} from "react-icons/bs";
 import myPhoto from "../images/myPhoto.png"
@@ -39,14 +39,24 @@ export const socialLinks=[
         id:1,
         child:(
             <>
-              LinkedIn <FaLinkedin size={30}/>
+              Instagram <FaInstagram size={30}/>
             </>
         ),
-        href:'https://linkedin.com',
+        href:'https://www.instagram.com/gafuroff__me__',
         style:'rounded-lr-md'
     },
     {
         id:2,
+        child:(
+            <>
+                Telegram <FaTelegram size={30}/>
+            </>
+        ),
+        href:'https://t.me/+998972923366',
+        style:'rounded-lr-md'
+    },
+    {
+        id:3,
         child:(
             <>
               Github <FaGithub size={30}/>
@@ -55,7 +65,7 @@ export const socialLinks=[
         href:'https://github.com',
     },
     {
-        id:3,
+        id:4,
         child:(
             <>
               Mail <HiOutlineMail size={30}/>
@@ -64,7 +74,7 @@ export const socialLinks=[
         href:'mailto:ulugbekgafurov752@gmail.com',
     },
     {
-        id:4,
+        id:5,
         child:(
             <>
               Resume <BsFillPersonLinesFill size={30}/>
